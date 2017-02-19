@@ -1,14 +1,33 @@
-.. BRISKHOME documentation master file, created by
-   sphinx-quickstart on Sun Feb 19 21:06:16 2017.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+BRISKHOME Documentation
+=======================
 
-Welcome to BRISKHOME's documentation!
-=====================================
+..  sidebar:: Note
+
+    This documentation is a work in progress. Topics marked with a :wrench: are placeholders that have not been
+    written yet. You can track the status of these topics through our public documentation `issue tracker`_.
+
+..  _issue tracker: https://github.com/Microsoft/Office-Online-Test-Tools-and-Documentation/issues
+
+Documentation for the application is available online at ReadTheDocs in both English and Russian languages and consists of three separate documents that are intended for different auditories:
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+  :maxdepth: 2
+  :caption: Administrator Guide
+
+  admin/index
+
+.. toctree::
+  :maxdepth: 2
+  :caption: Developer Guide
+
+  developer/index
+
+.. toctree::
+  :maxdepth: 2
+  :caption: User Manual
+
+  manual/index
+
 
 
 
