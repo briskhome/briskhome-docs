@@ -11,22 +11,30 @@ BRISKHOME Documentation
 Documentation for the application is available online at ReadTheDocs in both English and Russian languages and consists of three separate documents that are intended for different auditories:
 
 .. toctree::
-  :maxdepth: 2
   :caption: Administrator Guide
+  :maxdepth: 3
+  :numbered: 3
 
   admin/index
+  admin/system-requirements
+  admin/installing-dependencies
+  admin/installing-briskhome
 
 .. toctree::
   :maxdepth: 2
   :caption: Developer Guide
 
   developer/index
+  developer/key-concepts
 
 .. toctree::
   :maxdepth: 2
   :caption: User Manual
 
   manual/index
+  manual/managing-users
+  manual/managing-devices
+  manual/managing-services
 
 
 
