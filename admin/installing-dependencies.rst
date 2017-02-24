@@ -1,13 +1,7 @@
-.. |BRISKHOME| replace:: **BRISK**\HOME
-
 Installing Dependencies
 =======================
 
-.. important::
-
-  **This article is a work-in-progress** and does not reflect the current state of |BRISKHOME|.
-
-  It can be used as a reference material but if something is unclear or missing, please open an issue in either `briskhome <https://github.com/heuels/briskhome/issues>`_ *(for questions about the system itself)* or `briskhome-docs <https://github.com/heuels/briskhome-docs/issues>`_ repository *(for questions about documentation or configuration)* and we will be more than happy to help you.
+.. include:: /.shared/work-in-progress.rst
 
 |BRISKHOME|, being a **Node.js** application, requires a set of software packages to be installed on a host system *and* sertain services to be available on a local network.
 

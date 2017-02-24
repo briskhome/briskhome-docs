@@ -3,8 +3,7 @@ BRISKHOME Documentation
 
 ..  sidebar:: Note
 
-    This documentation is a work in progress. Topics marked with a :wrench: are placeholders that have not been
-    written yet. You can track the status of these topics through our public documentation `issue tracker`_.
+    This documentation is a work in progress. Topics marked with a |wrench| are placeholders that have not been written yet. You can track the status of these topics through our public documentation `issue tracker`_.
 
 ..  _issue tracker: https://github.com/Microsoft/Office-Online-Test-Tools-and-Documentation/issues
 
@@ -12,8 +11,8 @@ Documentation for the application is available online at ReadTheDocs in both Eng
 
 .. toctree::
   :caption: Administrator Guide
-  :maxdepth: 3
-  :numbered: 3
+  :maxdepth: 2
+  :numbered: 2
 
   admin/index
   admin/system-requirements
@@ -21,15 +20,19 @@ Documentation for the application is available online at ReadTheDocs in both Eng
   admin/installing-briskhome
 
 .. toctree::
-  :maxdepth: 2
   :caption: Developer Guide
+  :maxdepth: 2
+  :numbered: 2
 
   developer/index
   developer/key-concepts
+  developer/components
+  developer/api-reference
 
 .. toctree::
-  :maxdepth: 2
   :caption: User Manual
+  :maxdepth: 2
+  :numbered: 2
 
   manual/index
   manual/managing-users

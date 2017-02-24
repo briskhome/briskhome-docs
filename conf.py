@@ -17,6 +17,7 @@
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
 import os
+import io
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
@@ -68,7 +69,7 @@ language = 'en'
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This patterns also effect to html_static_path and html_extra_path
-exclude_patterns = ['.build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = ['.build', '.shared', 'Thumbs.db', '.DS_Store']
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
@@ -76,6 +77,8 @@ pygments_style = 'sphinx'
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = False
 
+with io.open('./.shared/rst_epilog.rst', encoding='utf-8') as epilog_file:
+    rst_epilog = epilog_file.read()
 
 # -- Options for HTML output ----------------------------------------------
 
@@ -89,9 +92,6 @@ if not on_rtd:  # only import and set the theme if we're building docs locally
     import sphinx_rtd_theme
     html_theme = 'sphinx_rtd_theme'
     html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
-
-# otherwise, readthedocs.org uses their theme by default, so no need to specify it
-# html_theme = 'alabaster'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
