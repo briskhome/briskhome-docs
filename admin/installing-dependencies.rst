@@ -1,6 +1,5 @@
 Installing Dependencies
 =======================
-
 .. include:: /.shared/work-in-progress.rst
 
 |BRISKHOME|, being a **Node.js** application, requires a set of software packages to be installed on a host system *and* sertain services to be available on a local network.

@@ -1,0 +1,62 @@
+.wy-side-nav-search {
+  background-color: #fbca04;
+}
+
+.wy-side-nav-search .icon {
+  color: #555 !important;
+}
+
+.wy-side-nav-search .version {
+  color: #b3b3b3 !important;
+}
+
+.rtd-search-form input[type="text"]{
+  border: 1px solid #555 !important;
+}
+
+.rst-content .admonition {
+    padding: 12px !important;
+    line-height: 24px !important;
+    margin-bottom: 24px !important;
+}
+
+.rst-content .admonition p:last-child {
+    margin-bottom: 0 !important;
+}
+
+.rst-content blockquote {
+    /*margin-bottom: 0 !important;*/
+}
+
+/*  */
+
+.rst-content .admonition.tip .admonition-title:before {
+    content: '\f024';
+}
+
+.rst-content .admonition.warning .admonition-title:before,
+.rst-content .admonition.danger .admonition-title:before{
+    content: '\f071';
+}
+
+.rst-content .admonition-pre-release-content .admonition-title {
+    background-color: #e74c3c !important;
+}
+
+.rst-content .admonition-pre-release-content {
+    background-color: #faa !important;
+}
+
+/*  */
+
+.rst-content .admonition-work-in-progress .admonition-title:before {
+    content: '\f0ad';
+}
+
+.rst-content .admonition-work-in-progress .admonition-title {
+    background-color: #5bc0de;
+}
+
+.rst-content .admonition-work-in-progress {
+    background-color: rgba(91,192,222,0.25) !important;
+}

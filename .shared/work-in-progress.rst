@@ -1,5 +1,5 @@
-.. important::
+.. admonition:: Work-in-progress
 
-  **This article is a work-in-progress** and does not reflect the current state of |BRISKHOME|.
+  **This article is a work-in-progress** and may not describe the latest version of |BRISKHOME|.
 
-  It can be used as a reference material but if something is unclear or missing, please open an issue in either `briskhome <https://github.com/heuels/briskhome/issues>`_ *(for questions about the system itself)* or `briskhome-docs <https://github.com/heuels/briskhome-docs/issues>`_ repository *(for questions about documentation or configuration)* and we will be more than happy to help you.
+  If you find that something is unclear or missing, please open an issue in either `briskhome issue tracker`_ or `documentation issue tracker`_ and we will be more than happy to help you.
