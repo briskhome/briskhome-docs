@@ -1,9 +1,10 @@
 .wy-side-nav-search {
-  background-color: #fbca04;
+  background-color: #F9D21C;
+  background-image: url("logo.png") !important;
 }
 
 .wy-side-nav-search .icon {
-  color: #555 !important;
+  color: #fff !important;
 }
 
 .wy-side-nav-search .version {

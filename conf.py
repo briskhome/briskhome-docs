@@ -4,7 +4,7 @@ import os
 import io
 
 def common_setup(app):
-    app.add_stylesheet('custom.css')
+    app.add_stylesheet('css/custom.css')
 
 
 def setup(app):
